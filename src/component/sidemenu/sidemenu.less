@@ -1,0 +1,39 @@
+#sideMenu {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    width: 170px;
+    background-color: #575578;
+    overflow: auto;
+	overflow: overlay;
+	z-index: 1;
+	>div{
+		display:none;
+		.title{
+			color: #aaaaaa;
+			margin: 15px 20px;
+			font-size: 14px;
+		}
+		a{
+			display: block;
+			color: white;
+			line-height: 20px;
+			padding: 10px 20px 10px 40px;
+			background-image: url(./images/search.svg);
+			background-repeat: no-repeat;
+			background-position: 20px 50%;
+			font-size: 14px;
+		}
+		.sidemenuActive{
+			background-color: #a7a6b6;
+    		border-left: 4px solid #fff;
+    		padding-left: 36px;
+    		background-position: 16px 50%;
+    		color: #565478;
+		}
+	}
+	.showdiv{
+		display: block;
+	}
+}
